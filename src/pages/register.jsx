@@ -51,7 +51,7 @@ export default class register extends Component {
                                             <Form.Control name="password" value={this.state.password} onChange={this.handleChange} type="password" placeholder="Password" />
                                         </Form.Group>
                                         <Button variant="primary" type="submit">
-                                            Login
+                                            Register
                                         </Button>
                                     </Form>
                                     </Card.Text>
