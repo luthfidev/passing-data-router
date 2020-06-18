@@ -40,7 +40,7 @@ export default class register extends Component {
                                     <Form className="form-rounded-input" onSubmit={this.handlePost}>
                                         <Form.Group controlId="formBasicFullname">
                                             <Form.Label>Full Name</Form.Label>
-                                            <Form.Control name="fullname" value={this.state.fullname} onChange={this.handleChange} type="text" placeholder="Enter email" />
+                                            <Form.Control name="fullname" value={this.state.fullname} onChange={this.handleChange} type="text" placeholder="Enter fullname" />
                                         </Form.Group>
                                         <Form.Group controlId="formBasicEmail">
                                             <Form.Label>Email</Form.Label>
